@@ -1,27 +1,23 @@
 # Multiverse-Layout
 
-Database (Firestore) application built on the Front-End course.
-
-Link to the application: [https://test-proj-gda2.web.app/](https://test-proj-gda2.web.app/)
+Link to the website: [https://test-proj-gda1.web.app/](https://test-proj-gda1.web.app/)
 
 ## Description
 
-Firestore database application - after creating an account, you can log in and add / read an article.
+Project made during Front-End Bootcamp. It consisted in the exact reproduction of a specific page layout. Original layout
+website: <https://html5up.net/multiverse>.
 
-## Notes/ ToDo List/ Issues
-
-1. Less to CSS compilation takes place in the browser.
-2. Responsiveness is not done yet.
+It is fully responsive layout: for mobile, tablet and big display. I've added top navigation to the layout.
 
 ## ScreenShots
 
-<img alt="Logged Out" src="./Readme.md_pics/LoggedOut.png" style="width:75%">
-<img alt="Logged In" src="./Readme.md_pics/LoggedIn.png" style="width:75%">
+<img alt="Big screen" src="./Readme.md_pics/1_Big.png">
+<img alt="Table" src="./Readme.md_pics/2_Tablet.png">
+<img alt="Mobile" src="./Readme.md_pics/3_Mobile.png">
 
 ## Built With
 
-- [Firebase JavaScript SDK](https://firebase.google.com/docs/reference/js) - SDK of Firestore,
-- [LESS](https://lesscss.org/) - Stylesheet/less.
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/) - Displaying images.
 
 ## License
 
