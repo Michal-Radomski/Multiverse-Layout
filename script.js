@@ -1,4 +1,5 @@
-function ResposiveMenu() {
+// ResponsiveMenu function
+function ResponsiveMenu() {
   var nav_top = document.getElementById("Topnav");
   if (nav_top.className === "topnav") {
     nav_top.className += " responsive";
@@ -7,7 +8,7 @@ function ResposiveMenu() {
   }
 }
 
-// footer functins
+// Footer functions
 function changeCurtain() {
   var x = document.getElementById("curtain").clientHeight;
   if (x == "0") {
@@ -21,7 +22,7 @@ function closeCurtain() {
   document.getElementById("curtain").style.height = "0%";
 }
 
-//blur on click
+// Blur on click
 $(".btn").on("click", function () {
   $("main").toggleClass("blurred");
 });
@@ -29,7 +30,7 @@ $(".closebtn").on("click", function () {
   $("main").removeClass("blurred");
 });
 
-//lightbox options script
+// Lightbox options script
 lightbox.option({
   resizeDuration: 400,
   wrapAround: true,
